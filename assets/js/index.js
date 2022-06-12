@@ -57,3 +57,7 @@ const readerAvatar = (user) => {
     $(".text-avatar").html(first).show();
   }
 };
+
+function change() {
+  $("#change").addClass("layui-this").next().removeClass("layui-this");
+}
